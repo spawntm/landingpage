@@ -1,0 +1,44 @@
+*{
+    /* border: solid; */
+    font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1F2937;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.head{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.logo{
+    flex-grow:1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.link{
+    padding: 10px;
+    color: #e5e7eb;
+    font-size:18px;
+}
+
+.tal{
+    display: flex;
+    /* padding: 50px */
+    margin: 0px;
+    border: solid;
+}
+
+.awes{
+    padding-left: 0px;
+    
+}
+
+.aw{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
