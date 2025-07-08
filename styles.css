@@ -1,15 +1,20 @@
 *{
-    /* border: solid; */
+    /* border: solid, red, 1px; */
+    margin: 0px;
     font-family:'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+.head, .tal{
     background-color: #1F2937;
-    padding-left: 25px;
-    padding-right: 25px;
-}
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 10px;
+     }
 
 .head{
-    display: flex;
-    padding: 10px;
-    
+    display: flex;    
 }
 
 .logo{
@@ -27,18 +32,83 @@
 
 .tal{
     display: flex;
-    /* padding: 50px */
-    margin: 0px;
-    border: solid;
+    gap: 50px
 }
 
 .awes{
-    padding-left: 0px;
-    
-}
+       width: 50%;
+       }
 
 .aw{
     font-size: 48px;
     color:#F9FAF8;
     font-weight: 900;
+    }
+
+.image{
+    color: #F9FAF8;
+    background-color: grey;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+    }
+
+.text{
+    color: #F9FAF8;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+.sign{
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    text-align: center;
+    align-content: center;
+    font-size: 18px;
+    width: 30%;
+    height: 15%;
+}
+
+.head2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+
+.box1, .box2, .box3, .box4{
+    border: solid #3882f6 4px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    flex-direction: row; 
+    
+}
+
+.boxtx{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex: wrap;
+    }
+
+.tx1, .tx2, .tx3, .tx4{
+    width: 150px;
+    height: 150px;
+    flex-direction: row; 
+    justify-content: center;
+    border: 4px solid white;
+    text-align: center;
+}
+
